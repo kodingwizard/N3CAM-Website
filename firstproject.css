@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+.hometablelink{
+    color: darkgray;
+    background-color: white;
+}
+
+#hometable{
+    margin: 0px;
+    background-color: black;
+    border-width: 1px;
+}
+
+#banner{
+    font-size: 100px;
+   border-style: solid;
+   border-left: 0px;
+   border-color: black;
+   border-right: 0px;
+   text-align: center;
+   background-color: navy;
+   color: white;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+}
+
+.subheader{
+    color: white;
+}
+
+#ms{
+    font-weight: bolds;
+    font-size: 66px;
+}
+
+#itp{
+    font-size: 50px;
+}
+
+#ci{
+    font-size: 40px;
+}
