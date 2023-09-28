@@ -42,4 +42,8 @@ body{
 
 #ci{
     font-size: 40px;
+    color: white;
+    background-color: navy;
+    padding-right: 1000px;
+    padding-bottom: 150px;
 }
