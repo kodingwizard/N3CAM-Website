@@ -34,10 +34,12 @@ body{
 #ms{
     font-weight: bolds;
     font-size: 66px;
+    color: black;
 }
 
 #itp{
     font-size: 50px;
+    color: black;
 }
 
 #ci{
