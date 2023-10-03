@@ -40,7 +40,13 @@ body{
 }
 
 #bdev{
-    margin-left: 500px;
-    transform: translateY(-38px);
+    margin-left: 475px;
+    transform: translateY(-40px);
+    font-size: larger;
+}
+
+#fdev{
+    margin-left: 900px;
+    transform: translateY(-80px);
     font-size: larger;
 }
