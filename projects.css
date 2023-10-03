@@ -28,11 +28,11 @@ body{
 }
 
 #monopoly{
-    margin-right: 500px;
+    margin-right: 400px;
 }
 
 #monpic{
     float: right;
-    transform: translateY(500px);
-    transform: translateX(-100px);
+    transform: translateY(-200px);
+    margin-left: auto;
 }
