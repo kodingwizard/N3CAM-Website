@@ -6,7 +6,7 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="loginpage.css">
 </head>
-<body>
+<body style="font-family:Gill Sans MT;">
     <!--menu table-->
     <table id="hometable" border="black" bgcolor="white" align="right">
         <tr id="row">
@@ -48,9 +48,9 @@
         </tr>
         <tr>
             <th>
-                <form action="" method="post"><!--will need php page-->
+                <form action="" method="post"> <!--will need php page-->
                     <?php
-                        #Connection Values
+                        #Connection Values;
                         $servername = "localhost";
                         $username = "root";
                         #  $password = '123456';
@@ -81,7 +81,7 @@
                           echo 'No one found';
                         }
                         $conn->close();
-                        ?>
+                    ?>
                     <br>
                     <label for="password">Password: </label>
                     <input type="password">
