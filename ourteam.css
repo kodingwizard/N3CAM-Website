@@ -36,4 +36,11 @@ body{
 #web{
     margin-left: 50px;
     font-size: larger;
+    margin-right: auto;
+}
+
+#bdev{
+    margin-left: 500px;
+    transform: translateY(-38px);
+    font-size: larger;
 }
