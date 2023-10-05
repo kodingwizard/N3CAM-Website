@@ -50,3 +50,15 @@ body{
     transform: translateY(-80px);
     font-size: larger;
 }
+
+#tech{
+    margin-left: 50px;
+    transform: translateY(150px);
+    font-size: larger;
+}
+
+#content{
+    margin-left: 500px;
+    transform: translateY(110px);
+    font-size: larger;
+}
