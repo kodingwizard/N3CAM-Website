@@ -53,12 +53,27 @@ body{
 
 #tech{
     margin-left: 50px;
-    transform: translateY(150px);
+    transform: translateY(190px);
     font-size: larger;
 }
 
 #content{
     margin-left: 500px;
-    transform: translateY(110px);
+    transform: translateY(150px);
     font-size: larger;
+}
+
+#chrispic{
+    margin-left: 850px;
+    transform: translateY(150px);
+}
+
+#architpic{
+    margin-left: 900px;
+    transform: translateY(-420px);
+}
+
+#nandinipic{
+    margin-left: 50px;
+    transform: translateY{0px};
 }
