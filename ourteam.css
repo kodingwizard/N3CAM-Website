@@ -131,5 +131,6 @@ body{
 
 #melaniepic{
     margin-left: 50px;
-    transform: translateY(100px);
+    margin-right: 700px;
+    transform: translateY(-600px);
 }
