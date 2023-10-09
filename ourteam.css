@@ -74,6 +74,11 @@ body{
 }
 
 #nandinipic{
-    margin-left: 50px;
-    transform: translateY{0px};
+    margin-left: 60px;
+    transform: translateY(-675px);
+}
+
+#nikhilapic{
+    margin-left: 200px;
+    transform: translateY(-860px);
 }
