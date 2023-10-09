@@ -27,6 +27,52 @@ body{
     border-width: 1px;
 }
 
+/* Start of Dropdown */
+
+/* Dropdown Button */
+.hoverhere{
+    background-color: white;
+    color: black;
+    border: none;
+    color: darkgrey;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#arrow{
+    font-size: 14px;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.biodropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: darkgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.content a {
+    color: darkgray;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.biodropdown:hover .content {display: block;}
+
+/* End of Dropdown */
+
 #nar{
     margin-top: 0px;
     font-size: 50px;
@@ -75,5 +121,5 @@ body{
 
 #nandinipic{
     margin-left: 50px;
-    transform: translateY{0px};
+    transform: translateY(0px);
 }
