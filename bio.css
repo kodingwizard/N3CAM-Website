@@ -72,3 +72,7 @@ body{
     background-color: black;
     border-width: 1px;
 }
+
+.picture{
+    float: left;
+}
