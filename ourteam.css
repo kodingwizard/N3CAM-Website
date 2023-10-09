@@ -126,5 +126,10 @@ body{
 
 #nikhilapic{
     margin-left: 200px;
-    transform: translateY(-860px);
+    transform: translateY(-680px);
+}
+
+#melaniepic{
+    margin-left: 50px;
+    transform: translateY(100px);
 }
