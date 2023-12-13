@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="loginpage.css">
+    <script>src='login.js'</script>
 </head>
 <body style="font-family:Gill Sans MT;">
     <!--menu table-->
@@ -56,46 +57,14 @@
         </tr>
         <tr>
             <th>
-                <form action="" method="post"> <!--will need php page-->
-                    <?php
-                        #Connection Values;
-                        $servername = "localhost";
-                        $username = "root";
-                        #  $password = '123456';
-                        $password = ""; # Mr Millard's password is an empty string.
-                        
-                        // Create connection to MySQL
-                        $conn = new mysqli($servername, $username, $password);
-                        
-                        // Test connection
-                        if ($conn->connect_error) {
-                          die("Connection failed: " . $conn->connect_error);
-                        }
-                        
-                        # Draw data from database using the query() method
-                        $conn->query("use Students23;"); #First select the active database
-                        $sql = 'select fName, lName from Students where Period =1;'; #write query
-                        $result = $conn->query($sql); #submit query and save data in $result
-                        
-                        if ($result->num_rows > 0) {  #Check for presence of return data
-                            echo '<label>Choose a team member:</label><br>'; #echo sends data to browser
-                            echo '<select>'; # start a listbox with the html select element
-                          while($row = $result->fetch_assoc(fName)){ #method returns one row at a time
-                            #$row data is already string but html must be added in as quoted string values
-                            echo '<option>''$row["Nandini Dharwadkar"]'.'$row["Archit Das"]'</option>';
-                          }
-                           echo '</select>'; #close listbox
-                         } else {
-                          echo 'No one found';
-                        }
-                        $conn->close();
-                    ?>
+                <form action="login.php" method="post"> <!--will need php page-->
+                    <label for="username">Username: </label>
+                    <input type="text" name="username" id="username">
                     <br>
                     <label for="password">Password: </label>
-                    <input type="password">
+                    <input type="password" name="password" id="password">
                     <br>
-                    <input type="submit">
-                    <input type="reset">
+                    <button>Submit</button>
                 </form>
             </th>
         </tr>
