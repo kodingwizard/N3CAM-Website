@@ -57,17 +57,18 @@
         </tr>
         <tr>
             <th>
-                <form action="login.php" method="post"> <!--will need php page-->
+                <form > <!--will need php page in the future-->
                     <label for="username">Username: </label>
                     <input type="text" name="username" id="username">
                     <br>
                     <label for="password">Password: </label>
                     <input type="password" name="password" id="password">
                     <br>
-                    <button>Submit</button>
+                    <button class = 'btn' type="button" onclick="getInfo()">Submit</button>
                 </form>
             </th>
         </tr>
     </table>
 </body>
+<script src="login.js" charset="UTF-8"></script>
 </html>
