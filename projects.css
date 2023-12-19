@@ -73,12 +73,26 @@ body{
     border-width: 1px;
 }
 
-#monopoly{
+.monopoly{
     margin-right: 400px;
+    margin-bottom: 0px;
 }
 
 #monpic{
     float: right;
     transform: translateY(-250px);
     margin-left: auto;
+}
+
+.turtlecode{
+    margin-top: 0px;
+    transform: translateY(-175px);
+    margin-bottom: 0px;
+}
+
+.timeline{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    transform: translateY(-175px);
 }
