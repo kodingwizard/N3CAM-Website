@@ -96,3 +96,11 @@ body{
     margin-right: 400px;
     transform: translateY(-175px);
 }
+
+.linkport {
+    width: 200px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
