@@ -80,7 +80,7 @@ body{
 
 #monpic{
     float: right;
-    transform: translateY(-350px);
+    transform: translateY(-200px);
     margin-left: auto;
 }
 
@@ -103,4 +103,27 @@ body{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+}
+
+.collapsible {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.contentmon {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #A2E4FB;
+}
+  
+.monsum {
+    margin-right: 400px;
 }
