@@ -129,8 +129,9 @@ body{
 }
 
 .backtotop {
-    transform: translate(1350px, 330px);
-    float: right;
+    left: 89%;
+    bottom: 1%;
+    float: left;
     position: fixed;
     border: 1px solid black;
     height: 5%;
